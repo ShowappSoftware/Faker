@@ -1,5 +1,5 @@
 {
-    "name": "fzaninotto/faker",
+    "name": "showapp/faker",
     "type": "library",
     "description": "Faker is a PHP library that generates fake data for you.",
     "keywords": [
@@ -11,10 +11,14 @@
     "authors": [
         {
             "name": "François Zaninotto"
+        },
+        {
+            "name": "Konrad Marcińczyk",
+            "email": "contact@showapp.pl"
         }
     ],
     "require": {
-        "php": "^5.3.3 || ^7.0 || ^8.0"
+        "php": "^5.3.3 || ^7.0 || ^8.0 || ^8.1"
     },
     "require-dev": {
         "ext-intl": "*",
